@@ -79,13 +79,10 @@ body {
   background-color: var(--secondary-color);
 }
 
-.nav-list__link:active {
+.nav-list__link:hover {
   color: var(--secondary-color);
 }
 
-@media (hover: hover) {
-  /* when hover is supported */
-  .nav-list__link:hover {
-    color: var(--secondary-color);
-  }
+.nav-list__link:active {
+  color: var(--secondary-color);
 }
