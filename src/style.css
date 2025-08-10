@@ -8,6 +8,14 @@ html {
   --lg-size: 1200px;
   --transition-duration: 0.3s;
   --transition-func: ease;
+
+  box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
 body {
@@ -76,10 +84,7 @@ body {
   background-color: var(--secondary-color);
 }
 
-.nav-list__link:hover {
-  color: var(--secondary-color);
-}
-
+.nav-list__link:hover,
 .nav-list__link:active {
   color: var(--secondary-color);
 }
