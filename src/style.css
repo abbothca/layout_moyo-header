@@ -1,8 +1,3 @@
-* {
-  margin: 0;
-  box-sizing: border-box;
-}
-
 html {
   --primary-color: #fff;
   --secondary-color: #00acdc;
@@ -17,6 +12,7 @@ html {
 
 body {
   margin: 0;
+  box-sizing: border-box;
   font-family: var(--font-family);
   font-weight: var(--font-weight);
   color: var(--text-color);
@@ -46,11 +42,12 @@ body {
   justify-content: flex-end;
   align-items: center;
   padding: 0;
+  margin: 0;
+  box-sizing: border-box;
   list-style: none;
 }
 
 .nav-list__item:not(:first-child) {
-  list-style: none;
   margin-left: 20px;
 }
 
